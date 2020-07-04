@@ -1,0 +1,39 @@
+body {
+    background: #1d1d1d url(https://i2.wp.com/www.123freevectors.com/wp-content/original/110440-black-and-blue-blurred-background-vector.jpg?w=800&q=95) no-repeat;
+    background-size: cover;
+    color: #333333;
+    min-height: 100%;
+}
+
+#portHeader {
+    color: #194128;
+    border: none;
+    border-radius: 15px;
+    text-align: center;
+    font-size: larger;
+    background: bisque;
+}
+
+#portNav ul li a {
+    color: #194128;
+    height: auto;
+    font-size: large;
+    width: 70%;
+}
+
+#portNav {
+    text-align: center;
+}
+
+#portText h2, #portText h3, .artifactWrap h2, .folderContentView h2, .portfolioArtifactTable th {
+    color: #194128;
+    text-align: center;
+    font-size: xx-large;
+}
+#portText h3.section-title {
+    font-size: 140%;
+    font-weight: normal;
+    margin: 20px 0;
+    display: block;
+    text-align: left;
+}
