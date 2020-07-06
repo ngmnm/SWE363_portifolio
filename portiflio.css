@@ -99,6 +99,7 @@ body {
     font-size: xx-large;
     background-color: #193d66;
     border-radius: 12px;
+        margin-bottom: 20px;
 }
 #portText h2, #portText h3, .artifactWrap h2, .folderContentView h2, .portfolioArtifactTable th {
     color: azure;
@@ -111,4 +112,9 @@ body {
     margin: 20px 0;
     display: block;
     text-align: left;
+    color: azure;
+
+}
+element.style {
+    color: azure;
 }
