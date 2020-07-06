@@ -45,12 +45,35 @@ body {
     border-radius: 12px;
     padding: 2%;
 }
+.portSection:hover ~.autoClickOnArtifactPreview .vtbegenerated{
+    display: block;
+}
+    
+.portSection .vtbegenerated {
+    margin: -10px 0 10px;
+    display: none;
+}
+.portSection .vtbegenerated:hover {
+    margin: -10px 0 10px;
+    display: block;
+}
 .autoClickOnArtifactPreview {
     background-color: azure;
     color: #3f434c;
     border: none;
     margin-bottom: 10px;
     border-radius: 15px;
+    display:none;
+}
+.autoClickOnArtifactPreview {
+    border-radius: 3px;
+    font-family: arial;
+    font-size: 50%;
+    padding: 0 8px;
+    text-decoration: none;
+    margin: 0 4px 0 0;
+    display: inline-block;
+    font-weight: normal;
 }
 #portText h2 {
     color: azure;
