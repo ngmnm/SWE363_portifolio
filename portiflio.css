@@ -31,11 +31,13 @@ body {
 #portNav {
     text-align: center;
     height: 1000px;
-    background: linear-gradient(90deg, rgba(68,201,206,1) 0%, rgba(179,222,222,1) 50%, rgba(98,150,212,1) 100%);
+    background: #145589
     border: none;
     border-radius: 15px;
 }
-
+#portNav:hover{
+   background: linear-gradient(90deg, rgba(68,201,206,1) 0%, rgba(179,222,222,1) 50%, rgba(98,150,212,1) 100%);
+}
 .portSection {
     font-size: 120%;
     line-height: 160%;
@@ -63,7 +65,7 @@ body {
     border: none;
     margin-bottom: 10px;
     border-radius: 15px;
-    display:none;
+    display:inline-block;
 }
 .autoClickOnArtifactPreview {
     border-radius: 3px;
