@@ -22,7 +22,7 @@ body {
 }
 
 #portNav ul li a {
-    color: #194128;
+    color: black;
     height: auto;
     font-size: large;
     width: 70%;
@@ -30,8 +30,35 @@ body {
 
 #portNav {
     text-align: center;
+    height: 1000px;
+    background: linear-gradient(90deg, rgba(68,201,206,1) 0%, rgba(179,222,222,1) 50%, rgba(98,150,212,1) 100%);
+    border: none;
+    border-radius: 15px;
 }
 
+.portSection {
+    font-size: 120%;
+    line-height: 160%;
+    margin-bottom: 30px;
+    background-color: #145589;
+    color: azure;
+    border-radius: 12px;
+    padding: 2%;
+}
+.autoClickOnArtifactPreview {
+    background-color: azure;
+    color: #3f434c;
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+#portText h2 {
+    color: azure;
+    text-align: center;
+    font-size: xx-large;
+    background-color: #193d66;
+    border-radius: 12px;
+}
 #portText h2, #portText h3, .artifactWrap h2, .folderContentView h2, .portfolioArtifactTable th {
     color: #194128;
     text-align: center;
