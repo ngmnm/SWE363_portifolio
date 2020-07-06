@@ -48,14 +48,13 @@ body {
 }
 #portNav {
     text-align: center;
-    
+    border: none;
+    margin-bottom: 5%
     background: #145589
     border: none;
     border-radius: 15px;
 }
-#portNav:hover{
-   background: linear-gradient(90deg, rgba(68,201,206,1) 0%, rgba(179,222,222,1) 50%, rgba(98,150,212,1) 100%);
-}
+
 .portSection {
     font-size: 120%;
     line-height: 160%;
