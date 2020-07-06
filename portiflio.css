@@ -1,120 +1,128 @@
 body {
-    background: #1d1d1d url(https://i.pinimg.com/474x/62/52/fa/6252fa8400428dea7e4a28f0787aaa89.jpg) no-repeat;
-    background-size: cover;
-    color: #333333;
-    min-height: 100%;
+  background: #1d1d1d url(https://i.pinimg.com/474x/62/52/fa/6252fa8400428dea7e4a28f0787aaa89.jpg) no-repeat;
+  background-size: cover;
+  color: #333333;
+  min-height: 100%;
 }
 
 #portHeader {
-    color: #194128;
-    border: none;
-    border-radius: 15px;
-    text-align: center;
-    font-size: larger;
-    background: azure;
-    margin-bottom: 30px;
+  color: #194128;
+  border: none;
+  border-radius: 15px;
+  text-align: center;
+  font-size: larger;
+  background: azure;
+  margin-bottom: 30px;
 }
 
 #portBody {
-    border: none;
-    border-radius: 15px;
-    background: azure;
+  border: none;
+  border-radius: 15px;
+  background: azure;
 }
-
-
 
 #portNav ul li a {
-    color: azure;
-    height: auto;
-    font-size: large;
-    width: 80%;
-    border-radius: 12px;
-    background: #145589;
-    cursor: pointer;
-}
-#portNav ul li a:hover {
-   color:black;
-    background: linear-gradient(90deg, rgba(68,201,206,1) 0%, rgba(179,222,222,1) 50%, rgba(98,150,212,1) 100%);
-    cursor: pointer;
+  color: azure;
+  height: auto;
+  font-size: large;
+  width: 80%;
+  border-radius: 12px;
+  background: #145589;
+  cursor: pointer;
 }
 
+#portNav ul li a:hover {
+  color: black;
+  background: linear-gradient(90deg, rgba(68, 201, 206, 1) 0%, rgba(179, 222, 222, 1) 50%, rgba(98, 150, 212, 1) 100%);
+  cursor: pointer;
+}
 
 #portNav ul li {
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    width: 22%;
-    border:none;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 22%;
+  border: none;
 }
+
 #portNav {
-    text-align: center;
-    border: none;
-    margin-bottom: 5%
-    background: #145589
-    border: none;
-    border-radius: 15px;
+  text-align: center;
+  border: none;
+  margin-bottom: 5% background: #145589 border: none;
+  border-radius: 15px;
 }
 
 .portSection {
-    font-size: 120%;
-    line-height: 160%;
-    margin-bottom: 30px;
-    background-color: #145589;
-    color: azure;
-    border-radius: 12px;
-    padding: 2%;
+  font-size: 120%;
+  line-height: 160%;
+  margin-bottom: 30px;
+  background-color: #145589;
+  color: azure;
+  border-radius: 12px;
+  padding: 2%;
 }
 
-    
 .portSection .vtbegenerated {
-    margin: -10px 0 10px;
- 
+  margin: -10px 0 10px;
 }
-.portSection:hover + .vtbegenerated {
-    margin: -10px 0 10px;
-    display: block;
-}
-.autoClickOnArtifactPreview {
-    background-color: azure;
-    color: #3f434c;
-    border: none;
-    margin-bottom: 10px;
-    border-radius: 15px;
-    display:inline-block;
-}
-.autoClickOnArtifactPreview {
-    border-radius: 3px;
-    font-family: arial;
-    font-size: 50%;
-    padding: 0 8px;
-    text-decoration: none;
-    margin: 0 4px 0 0;
-    
-    font-weight: normal;
-}
-#portText h2 {
-    color: azure;
-    text-align: center;
-    font-size: xx-large;
-    background-color: #193d66;
-    border-radius: 12px;
-        margin-bottom: 20px;
-}
-#portText h2, #portText h3, .artifactWrap h2, .folderContentView h2, .portfolioArtifactTable th {
-    color: azure;
-    text-align: center;
-    font-size: xx-large;
-}
-#portText h3.section-title {
-    font-size: 140%;
-    font-weight: normal;
-    margin: 20px 0;
-    display: block;
-    text-align: left;
-    color: azure;
 
+.portSection:hover+.vtbegenerated {
+  margin: -10px 0 10px;
+  display: block;
 }
-element.style {
-    color: azure;
+
+.autoClickOnArtifactPreview {
+  background-color: azure;
+  color: #3f434c;
+  border: none;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  display: inline-block;
+}
+
+.autoClickOnArtifactPreview {
+  border-radius: 3px;
+  font-family: arial;
+  font-size: 50%;
+  padding: 0 8px;
+  text-decoration: none;
+  margin: 0 4px 0 0;
+  font-weight: normal;
+}
+
+#portText h2 {
+  color: azure;
+  text-align: center;
+  font-size: xx-large;
+  background-color: #193d66;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+#portText h2, #portText h3, .artifactWrap h2, .folderContentView h2, .portfolioArtifactTable th {
+  color: azure;
+  text-align: center;
+  font-size: xx-large;
+}
+
+#portText h3.section-title {
+  font-size: 140%;
+  font-weight: normal;
+  margin: 20px 0;
+  display: block;
+  text-align: left;
+  color: azure;
+}
+
+#portText .portSection h3.section-title {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+a element.style {
+  color: azure;
+}
+p{
+    color:azure;
 }
