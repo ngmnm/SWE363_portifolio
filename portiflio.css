@@ -45,6 +45,7 @@ body {
     margin-right: auto;
     text-align: center;
     width: 22%;
+    border:none;
 }
 #portNav {
     text-align: center;
@@ -100,7 +101,7 @@ body {
     border-radius: 12px;
 }
 #portText h2, #portText h3, .artifactWrap h2, .folderContentView h2, .portfolioArtifactTable th {
-    color: #194128;
+    color: azure;
     text-align: center;
     font-size: xx-large;
 }
