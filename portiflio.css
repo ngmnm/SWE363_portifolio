@@ -48,7 +48,7 @@ body {
 }
 #portNav {
     text-align: center;
-    height: 1000px;
+    
     background: #145589
     border: none;
     border-radius: 15px;
@@ -65,13 +65,11 @@ body {
     border-radius: 12px;
     padding: 2%;
 }
-.portSection:hover + .autoClickOnArtifactPreview {
-    display: inline-block;
-}
+
     
 .portSection .vtbegenerated {
     margin: -10px 0 10px;
-    display: none;
+ 
 }
 .portSection:hover + .vtbegenerated {
     margin: -10px 0 10px;
