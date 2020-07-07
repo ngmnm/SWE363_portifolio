@@ -136,3 +136,21 @@ p{
     margin: 0.8em 0;
     color: black;
 }
+
+.personalPhoto {
+    background: url(https://i.ibb.co/8ddMxwz/Whats-App-Image-2020-06-12-at-9-59-36-AM.jpg);
+    width: 20%;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100% 100%;
+    align-content: center;
+    position: absolute;
+    top: 60%;
+    right: 40%;
+}
+.photo {
+    background-color: #f0ffff00;
+    margin-bottom: 50%;
+}
