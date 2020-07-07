@@ -18,7 +18,7 @@ body {
 #portBody {
   border: none;
   border-radius: 15px;
-  background: azure;
+    background: #f0ffff00;
 }
 
 #portNav ul li a {
@@ -59,8 +59,8 @@ body {
   font-size: 120%;
   line-height: 160%;
   margin-bottom: 30px;
-  background-color: #145589;
-  color: azure;
+  background-color: azure;
+  color: black;
   border-radius: 12px;
   padding: 2%;
 }
@@ -114,7 +114,7 @@ body {
   margin: 20px 0;
   display: block;
   text-align: left;
-  color: azure;
+  color: #194128;
 }
 
 #portText .portSection h3.section-title {
