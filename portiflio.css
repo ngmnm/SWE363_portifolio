@@ -75,16 +75,11 @@ body {
 }
 
 .autoClickOnArtifactPreview {
-  background-color: azure;
-  color: #3f434c;
+  background-color: #094b91;
+  color: azure;
   border: none;
-  margin-bottom: 10px;
   border-radius: 15px;
   display: inline-block;
-}
-
-.autoClickOnArtifactPreview {
-  border-radius: 3px;
   font-family: arial;
   font-size: 50%;
   padding: 0 8px;
@@ -92,6 +87,13 @@ body {
   margin-bottom: 20px;
   font-weight: normal;
 }
+
+.autoClickOnArtifactPreview:hover {
+  background-color: white;
+  color: black;
+}
+
+
 
 #portText h2 {
   color: azure;
