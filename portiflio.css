@@ -89,7 +89,7 @@ body {
   font-size: 50%;
   padding: 0 8px;
   text-decoration: none;
-  margin: 0 4px 0 0;
+  margin-bottom: 20px;
   font-weight: normal;
 }
 
@@ -122,9 +122,15 @@ body {
   text-align: center;
 }
 
-a element.style {
+element.style {
   color: azure;
 }
 p{
     color:azure;
+}
+
+#portHeader h1, #portHeader p {
+    font-weight: normal;
+    margin: 0.8em 0;
+    color: black;
 }
