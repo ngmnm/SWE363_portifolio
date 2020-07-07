@@ -49,7 +49,9 @@ body {
 #portNav {
   text-align: center;
   border: none;
-  margin-bottom: 5% background: #145589 border: none;
+  margin-bottom: 5% ;
+    background: #145589 ;
+      border: none;
   border-radius: 15px;
 }
 
