@@ -100,7 +100,9 @@ body {
   display: inline-block;
 }
 
-
+.personalInfo{
+  display:block;
+}
 
 #portText h2 {
   color: azure;
