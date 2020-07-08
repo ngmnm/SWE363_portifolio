@@ -81,7 +81,7 @@ body {
   color: azure;
   border: none;
   border-radius: 15px;
-  display: none;
+  display: inline-block;
   font-family: arial;
   font-size: 50%;
   padding: 0 8px;
@@ -95,10 +95,6 @@ body {
   color: black;
 }
 
-.portSection:hover > .autoClickOnArtifactPreview {
-  
-  display: inline-block;
-}
 
 .personalInfo{
   display:block;
@@ -133,9 +129,7 @@ body {
   text-align: center;
 }
 
-element.style {
-  color: azure;
-}
+
 p{
     color:black;
 }
