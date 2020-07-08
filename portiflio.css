@@ -75,10 +75,7 @@ body {
   display: block;
 }
 
-.portSection:hover > .autoClickOnArtifactPreview {
-  
-  display: inline-block;
-}
+
 .autoClickOnArtifactPreview {
   background-color: #094b91;
   color: azure;
@@ -96,6 +93,11 @@ body {
 .autoClickOnArtifactPreview:hover {
   background-color: white;
   color: black;
+}
+
+.portSection:hover > .autoClickOnArtifactPreview {
+  
+  display: inline-block;
 }
 
 
