@@ -65,21 +65,26 @@ body {
   padding: 2%;
 }
 
-.portSection .vtbegenerated {
-  margin: -10px 0 10px;
-}
 
-.portSection:hover+.vtbegenerated {
+.vtbegenerated {
   margin: -10px 0 10px;
+    display: none;
+}
+.portSection:hover > .vtbegenerated {
+  
   display: block;
 }
 
+.portSection:hover > .autoClickOnArtifactPreview {
+  
+  display: inline-block;
+}
 .autoClickOnArtifactPreview {
   background-color: #094b91;
   color: azure;
   border: none;
   border-radius: 15px;
-  display: inline-block;
+  display: none;
   font-family: arial;
   font-size: 50%;
   padding: 0 8px;
@@ -128,7 +133,7 @@ element.style {
   color: azure;
 }
 p{
-    color:azure;
+    color:black;
 }
 
 #portHeader h1, #portHeader p {
@@ -137,20 +142,4 @@ p{
     color: black;
 }
 
-.personalPhoto {
-    background: url(https://i.ibb.co/8ddMxwz/Whats-App-Image-2020-06-12-at-9-59-36-AM.jpg);
-    width: 20%;
-    height: 400px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 100% 100%;
-    align-content: center;
-    position: absolute;
-    top: 60%;
-    right: 40%;
-}
-.photo {
-    background-color: #f0ffff00;
-    margin-bottom: 50%;
-}
+
