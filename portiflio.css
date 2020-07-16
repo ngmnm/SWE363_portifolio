@@ -4,7 +4,24 @@ body {
   color: #333333;
   min-height: 100%;
 }
+a{
+  display: block; 
+  text-align: center; 
+  border-top: none;
+  border-right: none; 
+  border-left: none;
+  margin-left: auto; 
+  margin-right: auto;
+  padding: 5px;
+  margin-bottom: 20px;
+  border-radius: 30px;
+  background: linear-gradient(90deg, rgba(68, 201, 206, 1) 0%, rgba(179, 222, 222, 1) 50%, rgba(98, 150, 212, 1) 100%);
+  width: 40%;
+  cursor: pointer;
+  text-decoration: none;
 
+
+}
 #portHeader {
   color: #194128;
   border: none;
@@ -139,21 +156,4 @@ p{
     margin: 0.8em 0;
     color: black;
 }
-a{
-  display: block; 
-  text-align: center; 
-  border-top: none;
-  border-right: none; 
-  border-left: none;
-  margin-left: auto; 
-  margin-right: auto;
-  padding: 5px;
-  margin-bottom: 20px;
-  border-radius: 30px;
-  background: linear-gradient(90deg, rgba(68, 201, 206, 1) 0%, rgba(179, 222, 222, 1) 50%, rgba(98, 150, 212, 1) 100%);
-  width: 40%;
-  cursor: pointer;
-  text-decoration: none;
 
-
-}
