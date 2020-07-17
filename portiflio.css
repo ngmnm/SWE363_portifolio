@@ -4,7 +4,7 @@ body {
   color: #333333;
   min-height: 100%;
 }
-a{
+.resources{
   display: block; 
   text-align: center; 
   border-top: none;
